@@ -1,0 +1,25 @@
+#container {
+    margin: 4vw;
+}
+
+#divRefArea {
+    padding: 3%;
+    margin-bottom: 5vh;
+    border: 1px solid;
+    word-wrap: break-word;
+}
+
+.fact {
+    background: yellow;
+}
+
+.factWithMark::after {
+    content: "[citation needed]";
+    vertical-align: super;
+    font-size: 80%;
+}
+
+#h1Div, #editArea, footer {
+    text-align: center;
+    margin-top: 1vh;
+}
